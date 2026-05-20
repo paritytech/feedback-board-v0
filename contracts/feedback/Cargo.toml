@@ -1,0 +1,21 @@
+[package]
+name = "feedback"
+version.workspace = true
+edition.workspace = true
+description = "Decentralized feedback board contract — stores feedback CIDs from Bulletin Chain"
+authors.workspace = true
+homepage.workspace = true
+
+[lib]
+path = "lib.rs"
+
+[[bin]]
+name = "feedback"
+path = "lib.rs"
+
+[dependencies]
+cdm = { workspace = true }
+pvm_contract = { workspace = true }
+polkavm-derive = { workspace = true }
+parity-scale-codec = { workspace = true }
+picoalloc = { workspace = true }

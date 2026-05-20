@@ -1,0 +1,93 @@
+{
+  "targets": {
+    "929b5c63e2cb5202": {
+      "asset-hub": "wss://paseo-asset-hub-next-rpc.polkadot.io",
+      "bulletin": "https://paseo-bulletin-next-ipfs.polkadot.io/ipfs",
+      "registry": "0xa7ae171c78f06c248a9b2556c793aa1df5c9173a"
+    }
+  },
+  "dependencies": {
+    "929b5c63e2cb5202": {
+      "@example/feedback": "latest"
+    }
+  },
+  "contracts": {
+    "929b5c63e2cb5202": {
+      "@example/feedback": {
+        "version": 0,
+        "address": "0x6fba91Dbb57EE755ca0d2Ae3c3925473aDCBD977",
+        "abi": [
+          {
+            "type": "constructor",
+            "inputs": [],
+            "stateMutability": "nonpayable"
+          },
+          {
+            "type": "function",
+            "name": "postFeedback",
+            "inputs": [
+              {
+                "name": "cid",
+                "type": "string"
+              }
+            ],
+            "outputs": [
+              {
+                "name": "",
+                "type": "uint64"
+              }
+            ],
+            "stateMutability": "view"
+          },
+          {
+            "type": "function",
+            "name": "getFeedbackCount",
+            "inputs": [],
+            "outputs": [
+              {
+                "name": "",
+                "type": "uint64"
+              }
+            ],
+            "stateMutability": "view"
+          },
+          {
+            "type": "function",
+            "name": "getFeedbackCid",
+            "inputs": [
+              {
+                "name": "id",
+                "type": "uint64"
+              }
+            ],
+            "outputs": [
+              {
+                "name": "",
+                "type": "string"
+              }
+            ],
+            "stateMutability": "view"
+          },
+          {
+            "type": "function",
+            "name": "getFeedbackCreator",
+            "inputs": [
+              {
+                "name": "id",
+                "type": "uint64"
+              }
+            ],
+            "outputs": [
+              {
+                "name": "",
+                "type": "bytes20"
+              }
+            ],
+            "stateMutability": "view"
+          }
+        ],
+        "metadataCid": "bafk2bzacebk4uuozdtdtsbviwdi55yesteyj73mrhfu2i42ow6wugtwqermky"
+      }
+    }
+  }
+}
