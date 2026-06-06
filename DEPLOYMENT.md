@@ -216,7 +216,7 @@ harmless. If you got the `setup complete` line, proceed.
 ## 7. Deploy the frontend to the playground
 
 ```sh
-playground deploy --playground --domain feedback-board --signer phone
+playground deploy --playground --moddable --domain feedback-board --signer phone
 ```
 
 Use the repository name as the domain (or any name of your choice if you
@@ -259,7 +259,7 @@ If you have a pre-provisioned account (a mnemonic or secret URI) you can
 skip the phone flow entirely, including `playground init`:
 
 ```sh
-playground deploy --playground --domain feedback-board --signer dev --suri "<your secret URI>"
+playground deploy --playground --moddable --domain feedback-board --signer dev --suri "<your secret URI>"
 ```
 
 Everything (storage, DotNS, playground publish) is then signed by that
