@@ -5,6 +5,7 @@ edition.workspace = true
 description = "Decentralized feedback board contract — stores feedback CIDs from Bulletin Chain"
 authors.workspace = true
 homepage.workspace = true
+license.workspace = true
 
 [lib]
 path = "lib.rs"

@@ -1,5 +1,7 @@
 # Feedback Board
 
+> **Experimental Proof-of-Concept.** This is experimental code developed and published by Parity to explore decentralized application patterns on Polkadot. It is not a Parity product or service. It is provided as-is, with no guarantees of maintenance, support, network uptime, or fitness for any purpose. Anyone who forks or deploys this code does so at their own discretion and operates their own deployment independently.
+
 A decentralized sticky-note board on Polkadot. Pin your feedback, notes, or thoughts to a shared board — everyone using a remix of this app sees the same notes, because they all read from the same on-chain contract.
 
 ## How it works
@@ -63,3 +65,11 @@ Ideas to fork:
 - Group notes into columns by topic
 - Add a "burn" countdown that fades notes after N days
 - Allow image attachments stored on Bulletin
+
+## Contributing
+
+Contributions are welcome through standard open-source processes — open a public issue or submit a pull request. There is no private or preferential channel for this proof-of-concept; all discussion happens in the public issue tracker.
+
+## License
+
+Licensed under the [GNU General Public License v3.0 or later](./LICENSE) (`GPL-3.0-or-later`).

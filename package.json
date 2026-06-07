@@ -2,6 +2,8 @@
   "name": "feedback-board",
   "version": "0.1.0",
   "private": true,
+  "description": "Experimental proof-of-concept: a decentralized sticky-note board on Polkadot. Code developed and published by Parity.",
+  "license": "GPL-3.0-or-later",
   "type": "module",
   "scripts": {
     "dev": "vite --host --port 3000 --strictPort",

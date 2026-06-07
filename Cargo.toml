@@ -4,8 +4,9 @@ members = ["contracts/*"]
 
 [workspace.package]
 version = "0.1.0"
-authors = ["Feedback Board"]
+authors = ["Parity Technologies"]
 homepage = "https://polkadot.com/"
+license = "GPL-3.0-or-later"
 edition = "2024"
 
 [workspace.dependencies]

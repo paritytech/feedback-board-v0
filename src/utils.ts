@@ -86,7 +86,7 @@ async function doClaim(): Promise<void> {
 }
 
 // ---------------------------------------------------------------------------
-// Account flow — host-api-wrapper (matches RPS / t3rminal-v1).
+// Account flow — host-api-wrapper.
 //
 // We deliberately use @novasamatech/host-api-wrapper rather than the frozen
 // @novasamatech/product-sdk. Only host-api-wrapper accepts the
@@ -248,7 +248,7 @@ export async function uploadToBulletin(_account: AppAccount, bytes: Uint8Array):
 }
 
 // ---------------------------------------------------------------------------
-// Contracts (ContractManager.fromLiveClient — RPS pattern).
+// Contracts (ContractManager.fromLiveClient).
 //
 // `fromLiveClient` resolves the deployed contract address from the on-chain
 // CDM registry on each init, instead of trusting the snapshot in cdm.json.
@@ -389,7 +389,7 @@ export function getContract(): any {
 }
 
 // ---------------------------------------------------------------------------
-// Revive account mapping (RPS pattern).
+// Revive account mapping.
 //
 // pallet-revive on Paseo Next v2 requires every SS58 origin that calls a
 // contract to have a `Revive.map_account()` entry. `ensureContractAccountMapped`
